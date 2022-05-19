@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/startbootstrap-resume-gh-pages-status",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
